@@ -1,0 +1,102 @@
+body {
+  /* Reset */
+  margin: 0;
+  padding: 0;
+
+  /* Base */
+  color: #456990;
+  background-color: #f5fef4;
+
+  /* Tyography */
+  font-family: 'raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+
+  /*  decoration */
+  border-top: 10px solid #f45b69;
+  border-bottom: 10px solid #f45b69;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px 0 0 0;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px
+  padding: 0;
+  margin: 0 0 20px 0;
+
+
+}
+
+h3 {
+  font-size: 32px
+  padding: 0
+  margin:  0 0 16 0
+
+}
+p {
+  margin: 0 0 32px 0;
+}
+
+ul, ol {
+  margin: 0 0 32px 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+img {
+  with: 100%;
+}
+
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-menu li {
+  margin: 5px;
+  flex: 1 0 auto;
+}
+
+.main-menu a{
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  color: #456990;
+  display: block;
+  background-color: #f5fef4;
+  border: 1px solid #456990;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.main-menu a.current {
+  background-color: #456990;
+  color: #f5fef4;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background-color: #114b5f;
+  color: #f5fef4;
+}
+
+.logo {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  }
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-right: 50px;
+}
